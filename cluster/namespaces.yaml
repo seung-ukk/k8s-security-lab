@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sample
+  labels:
+    lab.k8s.io/purpose: sample-application
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: practice
+  labels:
+    lab.k8s.io/purpose: security-practice
