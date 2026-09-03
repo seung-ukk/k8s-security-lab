@@ -4,6 +4,7 @@ metadata:
   name: sample
   labels:
     lab.k8s.io/purpose: sample-application
+    istio-injection: enabled
 ---
 apiVersion: v1
 kind: Namespace
